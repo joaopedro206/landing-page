@@ -15,11 +15,34 @@
             
         }
         .hero{
+            position: relative;
             display: flex;
-            justify-content: center;   
+            justify-content: center; 
+            background-color: #0e0a29;
+            height: 60vh;  
+            
+        }
+        .hero .imagem{
+            position: absolute;
+            bottom: 0px;
+            right: 20vw;
+            height: 500px;
+        }
+        .hero h1{
+            position: absolute;
+            left: 0%;
+            color: white;
+            margin: 0%;
+            padding: 0%;
+        }
+        .hero p{
+            position: absolute;
+            color: white;
+            margin: 0%;
+            padding: 0%;
         }
         .hero img{
-            
+            position: relative;
             
         }
         .content{
@@ -44,8 +67,10 @@
 </head>
 <body>
     <header class="hero">
-        <img src="imagem/Design sem nome (2).png" alt="">
-
+        <div class="imagem"><img src="imagem/Design sem nome (5).png" alt=""></div>
+        <h1>lourivan de araujo</h1>
+        <p>advocacia e consultoria juridica</p>
+        
     </header>
     <main class="content">
         <h1 class="main_qualificaçao">tenho a qualificaçao certa para te ajudar</h1>
