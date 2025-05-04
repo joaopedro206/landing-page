@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body, html{
+    background-color: #DDDDDD;
+    margin: 0%;
+    height: 100%;
+    font-size: 62.50%;
+    color: white;
+}
+.inicio_cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1%;
+    background-color: black;
+    
+}
+.nav_botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    list-style-type: none;
+}
+.hero{
+    display: flex;
+    justify-content: right;
+}
+.background_degrade{
+    display: flex;
+    justify-content: right;
+    width:100%;
+    background-image: linear-gradient(to right,#000000,#404040 25%,#808080 50%,#BFBFBF 75%,#FFFFFF)
+}
+.main_contenct{
+    margin: 5%;
+}
+.conteiner_especialidades{
+    display: flex;
+    flex-direction: column;
+}
+.conteiner_especialidades article{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    font-size: 5em;
+    background-color: darkgray;
+    padding: 4em;
+}
+

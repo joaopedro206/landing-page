@@ -4,81 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
-    <style>
-        :root{
-            --color_texto:#a6a6a6;
-        }
-        body{
-            background-color: darkgray;
-            margin: 0%;
-            
-            
-        }
-        .hero{
-            position: relative;
-            display: flex;
-            justify-content: center; 
-            background-color: #0e0a29;
-            height: 60vh;  
-            
-        }
-        .hero .imagem{
-            position: absolute;
-            bottom: 0px;
-            right: 20vw;
-            height: 500px;
-        }
-        .hero h1{
-            position: absolute;
-            left: 0%;
-            color: white;
-            margin: 0%;
-            padding: 0%;
-        }
-        .hero p{
-            position: absolute;
-            color: white;
-            margin: 0%;
-            padding: 0%;
-        }
-        .hero img{
-            position: relative;
-            
-        }
-        .content{
-            width: 1000px;
-            margin: auto;
-            text-align: center;
-            background-color: #0e0a29;
-        }
-        .main_qualificaçao{
-            margin: 0%;
-            padding-top: 100px;
-            color: var(--color_texto);
-            
-        }
-        .main_p{
-            color: var(--color_texto);
-            
-        }
-
-        
-    </style>
+    <link rel="stylesheet" href="estilo_land.css">
 </head>
 <body>
+    <nav class="inicio_cabeçalho">
+        <img src="imagem/logo_lourivan.png"  alt="logo_lourivan">
+        <ul class="nav_botoes">
+            <li>especialidades</li>
+            <li>sobre</li>
+            <li>contato</li>
+        </ul>
+    </nav>
     <header class="hero">
-        <div class="imagem"><img src="imagem/Design sem nome (5).png" alt=""></div>
-        <h1>lourivan de araujo</h1>
-        <p>advocacia e consultoria juridica</p>
-        
+        <div class="background_degrade"> 
+            <img src="imagem/hero_600.png" height="841px" alt="">
+        </div>
     </header>
-    <main class="content">
-        <h1 class="main_qualificaçao">tenho a qualificaçao certa para te ajudar</h1>
-        <p class="main_p">Se você está buscando soluções nas áreas de Direito Criminal, Previdenciário ou Imobiliário, fico feliz em poder ajudar. Com a experiência que acumulei ao longo da minha carreira, sei o quanto cada situação jurídica pode ser delicada e gerar muitas dúvidas. Por isso, meu objetivo é oferecer uma advocacia transparente, explicando cada passo e buscando sempre a melhor estratégia para o seu caso.</p>
-    </main>
+    <section class="main_contenct">
+       <div class="conteiner_especialidades"> 
+           <article>
+               <img src="imagem/foto_providenciaria.jpg" alt="">
+               <div>
+                   <p>Atuação especializada para garantir seus direitos junto ao INSS:</p>
+                    <ul>
+                        <li> Aposentadorias (idade, tempo, especial)</li>
+                        <li> Revisão de benefícios</li>
+                        <li> Auxílio-doença e invalidez</li>
+                        <li>Pensão por morte</li>
+                        <li> Salário-maternidade</li>
+                        <li> Planejamento previdenciário</li>
+                    </ul>
+               </div>
+
+           </article>
+           <article>
+               <img src="imagem/foto_criminal.jpg" alt="">
+           </article>
+           <article>
+               <img src="imagem/foto_imobiliario.jpg" alt="">
+           </article>
+       </div>
+    </section>
+    <article>
+        <img src="imagem/imagen_sobre.png" alt="imagen sobre lourivan">
+    </article>
     <footer>
+        <footer>
+            <p><strong>Dr. Lourivan de Araujo</strong> | Advogado - OAB/UF XXXXX</p>
+            <p>Email: contato@seudominio.com.br | WhatsApp: (00) 91234-5678</p>
+            <div class="redes">
+              <a href="https://wa.me/55SEUNUMERO" target="_blank">WhatsApp</a>
+              <a href="https://instagram.com/SEUPERFIL" target="_blank">Instagram</a>
+            </div>
+            <div class="rodaper">
+                <p>&copy; 2025 Dr. Lourivan de Araujo. Todos os direitos reservados.</p>
+            </div>
+          </footer>
+          
 
     </footer>
+
     
 </body>
 </html>
