@@ -35,16 +35,27 @@ body, html{
 .main_contenct{
     margin: 5%;
 }
+#areas_de_atuaçao{
+    font-size: 10em;
+    text-align: center;
+}
+.titulos_atuaçao{
+    font-size: 5em;
+    text-align: center;
+}
 .conteiner_especialidades{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    
 }
 .conteiner_especialidades article{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
-    font-size: 5em;
-    background-color: darkgray;
-    padding: 4em;
+    max-width: 440px;
+    background-color: #404040;
+    padding: 10em;
+
+}
+.conteudo_atuaçao{
+    font-size: 3em;
 }
 
