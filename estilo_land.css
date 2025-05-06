@@ -29,16 +29,18 @@ body, html{
 .hero{
     display: flex;
     justify-content: right;
+    
 }
 .background_degrade{
     display: flex;
     justify-content: right;
     width:100%;
-    background-image: linear-gradient(to right,#000000,#404040 25%,#808080 50%,#BFBFBF 75%,#FFFFFF)
+    background-image: linear-gradient(to right,#000000cc,#404040 30%,#808080 60%,#BFBFBF 95%,#FFFFFF);
+    box-shadow: 0px 1px 4px 0px #00000081;
 }
 #sobre_mim{
-    margin: 10em;
-    background-color: white;
+    
+   background-color: white;
 }
 #conteiner_sobre_mim{
     display: flex;
@@ -56,15 +58,18 @@ body, html{
     margin-top: 0%;
 }
 .main_contenct{
-    margin: 5%;
+    padding: 5vw;
     display: flex;
     flex-direction: column;
     justify-content:center;
+    background-color: #808080;
 }
 #titulo_atuaçao{
     text-align: center;
     font-size: 5rem;
     color: #000000;
+    margin: 0%;
+    padding-bottom: 1em;
 }
 #areas_de_atuaçao{
     font-size: 10em;
@@ -97,4 +102,57 @@ body, html{
 .lista_info{
     line-height: 1.4em;
 }
+.final{
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagem/pexels-pavel-danilyuk-8112201\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 15%;
 
+}
+.conteiner_footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.conteiner_footer p{
+    font-size: 5em;
+    padding: 2rem;
+}
+.conteiner_footer img{
+    max-width: 220px;
+    max-height: 150px;
+}
+.contato_rede{
+    display: flex;
+    flex-direction: column;
+}
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 5em;
+    margin: 3rem;
+    
+}
+.redes a{
+    text-decoration: none;
+    color: white;
+
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodaper{
+    background-color: #0000007a;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0%;
+    padding: 1em;
+}
+.rodaper p{
+    margin: 0%;
+}
