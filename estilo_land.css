@@ -1,5 +1,9 @@
 @charset "UTF-8";
+:root{
 
+    --dourado-degrade: linear-gradient(to right, #A67928, #B98D2C);
+      
+}
 body, html{
     background-color: #ffffff;
     margin: 0%;
@@ -7,6 +11,7 @@ body, html{
     font-size: 62.50%;
     color: white;
 }
+
 .inicio_cabeçalho{
     display: flex;
     justify-content: space-between;
@@ -51,7 +56,7 @@ body, html{
 .hero_titulo h1{
   font-size: 4rem;
   font-weight: bold;
-  background: linear-gradient(to top, #A67928, #b88b2b);
+  background: var(--dourado-degrade);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -75,7 +80,10 @@ body, html{
 #titulo_sobre{
     text-align: center;
     font-size: 5rem;
-    color: #000000;
+    font-weight: bold;
+  background: var(--dourado-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .img_sobre{
     border-radius: 10px;
@@ -107,9 +115,13 @@ body, html{
     font-size: 10em;
     text-align: center;
 }
-.titulos_atuaçao{
-    font-size: 5em;
+#titulo_atuaçao{
+    font-size: 6rem;
     text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to top, #A67928, #b88b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .conteiner_especialidades{
     width: 100%;
