@@ -11,12 +11,21 @@ body, html{
     font-size: 62.50%;
     color: white;
 }
-
+.conteiner_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right,#000000e5,#404040 40%,#808080 70%,#BFBFBF 95%,#FFFFFF);
+    box-shadow: 0px 1px 4px 0px #00000081;
+    
+}
 .inicio_cabeçalho{
     display: flex;
     justify-content: space-between;
     padding: 0px 1%;
-    background-color: #000000;
+    background-color: #0000001a;
+    border-radius:  3rem 3rem 3rem 3rem;
+    min-width: 1180px;
     
 }
 .nav_botoes{
@@ -41,8 +50,6 @@ body, html{
     justify-content: space-around;
     align-items: center;
     width:100%;
-    background-image: linear-gradient(to right,#000000cc,#404040 30%,#808080 60%,#BFBFBF 95%,#FFFFFF);
-    box-shadow: 0px 1px 4px 0px #00000081;
 } 
 .hero_titulo{
     display: flex;
