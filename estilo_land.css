@@ -74,6 +74,7 @@ body, html{
     padding: 2rem;
     background-color: #00000047;
     border-radius: 2rem;
+    text-decoration: none;
 }
 #sobre_mim{
    background-color: white;
