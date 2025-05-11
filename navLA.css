@@ -1,0 +1,24 @@
+@charset "UTF-8";
+   
+/*aqui fica as logo e as link pra rolar*/
+
+.inicio_cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1%;
+    background-color: #0000001a;
+    border-radius:  3rem 3rem 3rem 3rem;
+    min-width: 1180px;
+}
+.nav_botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 4em;
+    list-style-type: none;
+}
+.nav_botoes a{
+    color: #DDDDDD;
+    text-decoration: none;
+}

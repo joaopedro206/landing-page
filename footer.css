@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+
+.lista_info{
+    line-height: 1.4em;
+}
+.final{
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagem/pexels-pavel-danilyuk-8112201\ \(1\).jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+
+}
+.conteiner_footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.conteiner_footer p{
+    font-size: 5em;
+    padding: 2rem;
+}
+.conteiner_footer img{
+    max-width: 220px;
+    max-height: 150px;
+}
+.contato_rede{
+    display: flex;
+    flex-direction: column;
+}
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 5em;
+    margin: 3rem;
+    
+}
+.redes a{
+    text-decoration: none;
+    color: white;
+
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodaper{
+    background-color: #0000007a;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0%;
+    padding: 1em;
+}
+.rodaper p{
+    margin: 0%;
+}

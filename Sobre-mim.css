@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+#sobre_mim{
+   background-color: white;
+}
+#conteiner_sobre_mim{
+    display: flex;
+    font-size: 4em;
+    gap: 3em;
+    padding:  2rem 7rem 7rem 7rem;
+}
+#titulo_sobre{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+  background: var(--dourado-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img_sobre{
+    border-radius: 10px;
+}
+.explicaçao_sobre_mim{
+    color: #000000;
+    
+}
+.explicaçao_sobre_mim h2{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0%;
+}
