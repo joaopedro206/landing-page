@@ -8,11 +8,10 @@
 .final{
     display: flex;
     flex-direction: column;
-    background-image: url(imagem/pexels-pavel-danilyuk-8112201\ \(1\).jpg);
+    background-image: url(../imagem/pexels-pavel-danilyuk-8112201\ \(1\).jpg);
+
     background-repeat: no-repeat;
    background-size: cover;
-   
-
 }
 .conteiner_footer{
     display: flex;
