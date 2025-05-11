@@ -2,32 +2,29 @@
 
 
 
-#sobre_mim{
-   background-color: white;
-}
-#conteiner_sobre_mim{
-    display: flex;
-    font-size: 4em;
-    gap: 3em;
-    padding:  2rem 7rem 7rem 7rem;
+#sobre{
+    width: 110rem;
+    margin: 10rem auto;
+    
+    
 }
 #titulo_sobre{
     text-align: center;
-    font-size: 5rem;
-    font-weight: bold;
+    margin: 10%;
+    text-transform: uppercase;
+    font-size: 6rem;
   background: var(--dourado-degrade);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.img_sobre{
-    border-radius: 10px;
-}
-.explicaçao_sobre_mim{
+#conteiner-sobre{
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    gap: 6vw;
     color: #000000;
-    
 }
-.explicaçao_sobre_mim h2{
-    text-align: center;
-    font-size: 2em;
-    margin-top: 0%;
+#conteiner-sobre p{
+    width: 40rem;
+    padding:  0rem 5rem 0rem 5rem;
 }

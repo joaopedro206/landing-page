@@ -2,18 +2,19 @@
    
 /*aqui fica as logo e as link pra rolar*/
 
-.inicio_cabeçalho{
+.inicio-nav{
     display: flex;
     justify-content: space-between;
     padding: 0px 1%;
     background-color: #0000001a;
     border-radius:  3rem 3rem 3rem 3rem;
-    min-width: 1180px;
+    /*no width pode ser adpatado pra 100%*/
+    min-width: 118rem;
+    
+    
 }
 .nav_botoes{
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
     font-size: 4em;
     list-style-type: none;
