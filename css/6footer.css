@@ -7,7 +7,7 @@
 }
 .final{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     background-image: url(../imagem/pexels-pavel-danilyuk-8112201\ \(1\).jpg);
 
     background-repeat: no-repeat;
@@ -48,13 +48,17 @@
     align-items: center;
 }
 .rodaper{
-    background-color: #0000007a;
+    background-color: #030202;
     color: #FFFFFF;
     text-align: center;
     font-size: 2rem;
     margin: 0%;
     padding: 1em;
+    
 }
 .rodaper p{
     margin: 0%;
+}
+.conteiner-width{
+    width: 118rem;
 }
