@@ -21,9 +21,9 @@
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    gap: 1rem;
+    gap: 7rem;
     padding-bottom: 3rem;
-    line-height: 4rem;
+    line-height: 5rem;
     
 }
 .hero_titulo h1{
@@ -34,10 +34,11 @@
 }
 .hero_titulo a{
     font-size: 2rem;
-    color: #A67928;
+    font-weight: bold;
+    color: #ffffff;
     width: fit-content;
     padding: 2rem;
-    background-color: #00000047;
+    background-color: #b8860b;
     border-radius: 2rem;
     text-decoration: none;
 }

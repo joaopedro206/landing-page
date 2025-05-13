@@ -5,10 +5,10 @@
 .inicio-nav{
     display: flex;
     justify-content: space-between;
-    padding: 0px 1%;
     border-radius:  3rem 3rem 3rem 3rem;
     /*no width pode ser adpatado pra 100%*/
-    min-width: 118rem;
+    min-width: 108rem;
+    background-color: rgba(0, 0, 0, 0.308);
     
     
 }
@@ -18,10 +18,10 @@
     font-size: 4em;
     list-style-type: none;
     padding-right: 2rem;
-    font-weight: 600;
-    color: #1b1111;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
 }
 .nav_botoes a{
-    color: #1b1111;
+  color: rgb(255, 251, 251);
     text-decoration: none;
 }
