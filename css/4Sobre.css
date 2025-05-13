@@ -4,13 +4,26 @@
 
 #sobre{
     width: 110rem;
-    margin: 10rem auto;
+    margin:auto;
+    margin-bottom:10rem;
+    margin-top: 15rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     
+}
+#conteiner-titulo-sobre{
+    width:fit-content;
+    position: absolute;
+    top: -7%;
+    right: 10%;
     
 }
 #titulo_sobre{
+    width: fit-content;
+    position: relative;
     text-align: center;
-    margin: 10%;
+    margin: 0%;
     text-transform: uppercase;
     font-size: 6rem;
   background: var(--dourado-degrade);
@@ -24,7 +37,32 @@
     gap: 6vw;
     color: #000000;
 }
-#conteiner-sobre p{
-    width: 45rem;
-    padding:  0rem 5rem 0rem 5rem;
+#img-sobre{
+    width: 47rem;
+    z-index: 1;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    border-radius: 2rem;
+}
+#conteiner-color-texto{
+    width: 84rem;
+    height: 65rem;
+    margin: 10rem;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    left: 11%;
+    border-radius: 2rem;
+    
+}
+#conteiner-color-texto p{
+    font-size: 2.5rem;
+    color: white;
+    width: 47rem;
+    position: relative;
+    top: 10%;
+    left: 37%;
+    line-height: 4rem;
+
 }

@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 1%;
-    background-color: #0000001a;
     border-radius:  3rem 3rem 3rem 3rem;
     /*no width pode ser adpatado pra 100%*/
     min-width: 118rem;
@@ -18,8 +17,11 @@
     gap: 20px;
     font-size: 4em;
     list-style-type: none;
+    padding-right: 2rem;
+    font-weight: 600;
+    color: #1b1111;
 }
 .nav_botoes a{
-    color: #DDDDDD;
+    color: #1b1111;
     text-decoration: none;
 }
